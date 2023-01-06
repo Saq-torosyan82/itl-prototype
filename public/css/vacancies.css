@@ -1,0 +1,83 @@
+/*jobs css*/
+
+
+.card-box-jobs-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-box-jobs-filters{
+    margin-top: 40px;
+}
+.card-box-jobs .btn-realed-profile{
+    width: 300px;
+}
+.card-box-jobs #keyword-job-input{
+    width: 35%;
+}
+.card-box-jobs .btn-search-keyword{
+    width: 120px;
+}
+.content-search{
+    padding-top: 25px;
+    width: 30%;
+}
+.search-parent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+}
+.content-search span{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.search-result-jobs{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+}
+.btn-save-search-jobs{
+    margin-bottom: 10px;
+}
+.table-data{
+    width: 100%;
+    margin-top: 15px;
+}
+.table-data th{
+    border: 10px solid white;
+}
+.table-data td{
+    border: 10px solid white;
+    width: 20%;
+    height: 30px;
+    background: #F0F0F0;
+}
+.table-data thead th{
+    width: 11%;
+}
+.table-data tr td:first-child, .table-data tr td:last-child {
+    width: 11%;
+}
+.table-data .btn-apply-table{
+    width: 100%;
+}
+.card-box-jobs-filters .search-filters {
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 0.5s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.card-box-jobs-filters .search-filters.collapsed {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+     transform: rotate(0deg);
+}

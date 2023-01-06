@@ -1,0 +1,174 @@
+.hide-important{
+    display:none !important;
+}
+
+.page-title-with-buttons{
+    padding-bottom:1.5rem !important;
+}
+.text-red{
+    color: red !important;
+}
+
+.text-green{
+    font-size: 13px!important;
+    color: green !important;
+}
+
+.form-group > #company_description{
+    min-height: 100px !important;
+}
+
+.tt-hint{
+    display:none !important;
+}
+
+.tt-menu{
+    width:auto !important;
+}
+
+#resumeUpload{
+    min-height:200px !important;
+    border: 2px dashed rgba(0,0,0,0.3) !important;
+    border-radius:0;
+}
+
+.btn-apple,
+.btn-apple:hover {
+    color: white;
+    background-color: #6c757d;
+}
+
+.padding-left-1rem {
+    padding-left: 1rem;
+}
+
+.job-search-link{
+    cursor:pointer;
+}
+
+.under-construction{
+    background-color: rgba(0,0,0,0.3);
+    width: 94%;
+    position: absolute;
+    height: 47%;
+}
+
+.under-construction h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-review {
+    background: transparent; border: none !important; text-align: left; margin: 0; padding: 0; color: blue
+}
+.ti .bootstrap-tagsinput {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow:none !important;
+}
+
+.ti .bootstrap-tagsinput>span {
+    min-width: 10rem;
+    line-height: 30px;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+    background: #DEDEDE;
+    color: black;
+}
+
+.ti .bootstrap-tagsinput>span>span {
+    position: absolute;
+    top: -10px;
+    right: 0;
+
+}
+.relative {
+    position: relative;
+}
+
+@media only screen and (min-width: 1200px){
+    .ti .bootstrap-tagsinput input {
+        position: absolute;
+        top: 26px;
+        right: 110px;
+        width: 84%;
+        line-height: 30px;
+        border: 1px solid #dee2e6;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .ti .bootstrap-tagsinput input {
+        position: absolute;
+        top: 26px;
+        right: 110px;
+        width: 80%;
+        line-height: 30px;
+        border: 1px solid #dee2e6;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .ti .bootstrap-tagsinput input {
+        position: absolute;
+        top: 26px;
+        right: 110px;
+        width: 80%;
+        line-height: 30px;
+        border: 1px solid #dee2e6;
+    }
+}
+
+@media only screen and (max-width:787px){
+    .ti .bootstrap-tagsinput input {
+        position: absolute;
+        top: 26px;
+        right: 110px;
+        width: 74%;
+        line-height: 30px;
+        border: 1px solid #dee2e6;
+    }
+}
+
+h4.page-title {
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+}
+.padding-margin-bottom-0 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.text-align-center {
+    text-align: center;
+}
+.button-add {
+    float: right;
+}
+
+.password {
+    position: relative;
+    width: 11rem;
+}
+
+
+.password-control {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('/assets/images/icons/view.svg') 0 0 no-repeat;
+}
+.password-control.view {
+    background: url('/assets/images/icons/no_view.svg') 0 0 no-repeat;
+}
+.email-button {
+    background-color: #2d3748;
+}

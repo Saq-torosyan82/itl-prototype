@@ -1,0 +1,43 @@
+.error {
+    color: #ff0084;
+}
+.profile-row{
+    margin-left: 4px;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+}
+
+.table-data{
+    width: 100%;
+    margin-top: 15px;
+}
+.table-data th{
+    border: 10px solid white;
+}
+.table-data td{
+    border: 10px solid white;
+    width: 20%;
+    height: 30px;
+    background: #F0F0F0;
+}
+.table-data thead th{
+    width: 11%;
+}
+.table-data tr td:first-child, .table-data tr td:last-child {
+    width: 11%;
+}
+.table-data .btn-apply-table{
+    width: 100%;
+}
+
+.no-data{
+    text-align: center;
+}
+
+#previewA{
+    color: white!important;
+}

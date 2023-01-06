@@ -1,0 +1,4 @@
+let resumesPage = {
+    init: function() {
+    },
+}

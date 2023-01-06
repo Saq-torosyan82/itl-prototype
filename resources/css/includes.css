@@ -1,0 +1,13 @@
+@import 'bootstrap.min.css';
+@import 'theme.min.css';
+@import 'icons.min.css';
+@import '~bootstrap-timepicker/css/bootstrap-timepicker.min.css';
+@import '~bootstrap-select/dist/css/bootstrap-select.min.css';
+@import '~bootstrap-tagsinput/dist/bootstrap-tagsinput.css';
+@import '~bootstrap-timepicker/css/bootstrap-timepicker.min.css';
+@import '~summernote/dist/summernote-bs4.css';
+@import 'spinkit.css';
+@import 'vacancies.css';
+@import 'profile.css';
+@import 'custom.css';
+
